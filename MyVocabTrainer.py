@@ -471,7 +471,7 @@ class VocabTrainer(object):
     self.view.make_textfield('textfield1', '', 6, 1* (height + 10), 700, height, self.font, int(self.fontsize), color=self.colorFL)
     self.view.make_label('label2', self.sl, 6, 2* (height + 10), 700, height, self.font, int(self.fontsize), color=self.colorSL)
     self.view.make_textfield('textfield2', '', 6, 3* (height + 10), 700, height, self.font, int(self.fontsize), color=self.colorSL)
-    #russian_keyboard.SetTextFieldPad(self.view['textfield2'])
+    russian_keyboard.SetTextFieldPad(self.view['textfield2'])
     self.view.make_label('label2', 'Category', 6, 4* (height + 10), 700, height, self.font, int(self.fontsize))
     self.view.make_tableview('tv_category', 6, 5* (height + 10), 700, 4*height, self.categories, 1, self.tableview_tapped_category)
     self.view.make_button('button1', 'Okay', 6, 9* (height + 10), 150, 100, action=self.bt_input_Okay)
