@@ -12,3 +12,7 @@ MyVocabTrainer
 
 Todos:
 - import from csv
+
+If there's no need for a second keyboard layout, you can easily comment the line
+#russian_keyboard.SetTextFieldPad(self.view['textfield2'])
+out. 
