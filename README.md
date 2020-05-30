@@ -18,5 +18,12 @@ Todos:
 - import from csv
 
 If there's no need for a second keyboard layout, you can easily comment the line
-#russian_keyboard.SetTextFieldPad(self.view['textfield2'])
-out. 
+#russian_keyboard.SetTextFieldPad(self.view['textfield2']) out. 
+
+database structure:
+
+CREATE TABLE settings (font VARCHAR(40), fontsize VARCHAR(4), colorFL VARCHAR(20), colorSL VARCHAR(20), nameFL VARCHAR(20), nameSL VARCHAR(20))
+
+CREATE TABLE categories (idc INTEGER PRIMARY KEY, category VARCHAR(80))
+
+CREATE TABLE vocabulary (id INTEGER PRIMARY KEY, wordFL VARCHAR(80), wordSL VARCHAR(80), idc INT, counter INT, learned BOOLEAN)
