@@ -1,8 +1,8 @@
 MyVocabTrainer
 ==============
 
-![alt text](https://img.shields.io/badge/iOS-11.x-lightgrey.svg?style=plastic "iOS 13.x")
-![alt text](https://img.shields.io/badge/Pythonista-3.2-green.svg?style=plastic "Pythonista 3.3")
+![alt text](https://img.shields.io/badge/iOS-13.x-lightgrey.svg?style=plastic "iOS 13.x")
+![alt text](https://img.shields.io/badge/Pythonista-3.3-green.svg?style=plastic "Pythonista 3.3")
 ![alt text](https://img.shields.io/badge/Python-3.6-blue.svg?style=plastic "Python 3.6")
 
 - choose font, fontsize and color
