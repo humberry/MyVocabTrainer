@@ -8,7 +8,7 @@ MyVocabTrainer
 - with ( a new line starts, e.g. hints, notice, pronunciation
 - add new words with category and two keyboard layouts (Latin / Cyrillic)
 - sqlite3 database
-- Export to csv
+- export to csv
 
 Todos:
-- Import from csv
+- import from csv
