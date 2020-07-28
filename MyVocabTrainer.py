@@ -406,10 +406,10 @@ class VocabTrainer(object):
     self.curs.close()
     self.conn.close()
     if len(self.vocabIds) > 0:
-      self.remove_view_x()
+      self.view.remove_view_x()
       self.show_training_loop()
     else:
-      self.remove_view_x()
+      self.view.remove_view_x()
       self.view.menu = 'Main'
       self.view.show_Main()
     
