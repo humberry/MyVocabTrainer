@@ -21,6 +21,7 @@ If there's no need for a second keyboard layout, you can easily comment the line
 #russian_keyboard.SetTextFieldPad(self.view['textfield2']) out. 
 
 database structure:
+-------------------
 
 CREATE TABLE settings (font VARCHAR(40), fontsize VARCHAR(4), colorFL VARCHAR(20), colorSL VARCHAR(20), nameFL VARCHAR(20), nameSL VARCHAR(20))
 
